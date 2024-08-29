@@ -1,0 +1,72 @@
+/* styles.css */
+body {
+    background-image: url('bg.jpg'); /* Replace with your dark image URL */
+    background-size: cover;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.character-card {
+    background-color: rgba(0, 0, 0, 0.5); /* 50% opacity */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.2);
+    text-align: left;
+    max-width: 400px; /* Set a maximum width for the content block */
+    word-wrap: break-word; /* Ensure long words break to fit within the block */
+}
+
+.character-card p {
+    opacity: 1; /* Ensure text is fully opaque */
+}
+
+.character-card p strong {
+    font-weight: bold;
+}
+
+.character-card p em {
+    font-style: italic;
+}
+
+
+
+.blur {
+    filter: blur(5px); /* Adjust the blur intensity as needed */
+    transition: filter 0.3s ease;
+}
+
+.blur:hover {
+    filter: none;
+}
+
+
+.img {
+    filter: blur(5px); /* Adjust the blur intensity as needed */
+    transition: filter 0.3s ease;
+}
+
+.img:hover {
+    filter: blur(5px); /* Adjust the blur intensity as needed */
+    transition: filter 0.3s ease;
+}
+
+
+.toggle-button {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.toggle-content {
+    display: none;
+    margin-left: 20px;
+}
