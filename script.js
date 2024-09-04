@@ -2,7 +2,7 @@
 document.addEventListener("DOMContentLoaded", function() {
     function adjustFooter() {
         var footer = document.querySelector("footer");
-        var content = document.querySelector(".character-card");
+        var content = document.querySelector(".content");
         var footerHeight = footer.offsetHeight;
         var contentHeight = content.offsetHeight;
         var windowHeight = window.innerHeight;
