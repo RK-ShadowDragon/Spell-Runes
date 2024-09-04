@@ -1,0 +1,101 @@
+/* styles.css */
+body {
+    background-image: url('bg.jpg'); 
+    background-size: cover;
+    color: #cacaca;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.character-card {
+    background-color: rgba(0, 0, 0, 0.5); 
+    padding: 20px;
+    margin-top:auto;
+    margin-bottom:auto;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.2);
+    text-align: left;
+    max-width: 400px; 
+    word-wrap: break-word; 
+    max-height: 600px; 
+    overflow-y: auto; 
+}
+
+.character-card::-webkit-scrollbar {
+    width: 8px; 
+}
+
+.character-card::-webkit-scrollbar-track {
+    background: rgba(0, 0, 0, 0.2); 
+    border-radius: 10px;
+}
+
+.character-card::-webkit-scrollbar-thumb {
+    background: rgba(50, 50, 50, 0.5); 
+    border-radius: 10px;
+}
+.character-card p {
+    opacity: 1; 
+}
+
+.character-card p strong {
+    font-weight: bold;
+}
+
+.character-card p em {
+    font-style: italic;
+}
+
+
+.blur {
+    filter: blur(5px); 
+    transition: filter 0.3s ease;
+}
+
+.blur:hover {
+    filter: none;
+}
+
+
+.img {
+    filter: blur(5px); 
+    transition: filter 0.3s ease;
+}
+
+.img:hover {
+    filter: blur(5px); 
+    transition: filter 0.3s ease;
+}
+
+
+.toggle-button {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #cacaca;
+    min-height: 30px;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.toggle-content{
+    display: none;
+    margin-left: 20px;
+}
+footer {
+    text-align: right;
+    padding: 10px;
+    background-color: none;
+    color: #cacaca;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding-right: 25px;
+}
