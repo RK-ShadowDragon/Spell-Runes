@@ -10,8 +10,19 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
-    flex-direction: column;
+
 }
+
+
+#page-container {
+            position: relative;
+            min-height: 100vh;
+        }
+        #content-wrap {
+            padding-bottom: 2.5rem; 
+        }
+
+
 
 .character-card {
     background-color: rgba(0, 0, 0, 0.5); 
@@ -25,7 +36,6 @@ body {
     word-wrap: break-word; 
     max-height: 600px; 
     overflow-y: auto; 
-    flex: 1;
 }
 
 .character-card::-webkit-scrollbar {
@@ -97,7 +107,7 @@ footer {
     padding: 10px;
     background-color: none;
     color: #cacaca;
-    clear: both;
+    height: 2.5rem;
     position: relative;
     bottom: 0;
     width: 100%;
