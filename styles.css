@@ -10,6 +10,7 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
+    flex-direction: column;
 }
 
 .character-card {
@@ -24,6 +25,7 @@ body {
     word-wrap: break-word; 
     max-height: 600px; 
     overflow-y: auto; 
+    flex: 1;
 }
 
 .character-card::-webkit-scrollbar {
@@ -90,11 +92,6 @@ body {
     margin-left: 20px;
 }
 
-.character-card::after {
-    content: "";
-    display: table;
-    clear: both;
-}
 footer {
     text-align: right;
     padding: 10px;
