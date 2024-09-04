@@ -10,29 +10,46 @@
     <div class="character-card">
         <h1><strong>Spell Runes</strong></h1>
         <div class="section">
-            <p><strong>Name:</strong> <span class="img"><em>[Character Name]</em></span></p>
-            <p><strong>Rank:</strong> <em>Dreamer</em></p>
-            <p><strong>Class:</strong> <span class="blur"><em>Demon</em></span></p>
+            <p><strong>Name:</strong> <span class="img"><em>[Character Name]</em></p>
+            <p><strong>True Name:</strong> </p>
+            <p><strong>Rank:</strong> <em>Awakened</em></p>
+            <p><strong>Class:</strong> <span class="blur"><em>Demon</em></span>
             <p><strong>Soul Cores:</strong> <span class="blur"><em>[3/7]</em></span></p>
         </div>
         <div class="section">
             <p><strong>Aspect:</strong> <em>[Frost Herald]</em></p>
             <p><strong>Aspect Rank:</strong> <span class="img"><em>Divine</em></span></p>
-            <p><strong>Aspect Description:</strong> <em>[You are a creature born in a frozen world. Wherever you go, the cold and dread follow.]</em></p>
-            <p><strong>Aspect Ability:</strong> <em>[Frost blade]</em></p>
+            <p><strong>Aspect Description:</strong></p>
+                <p><em>[You are a creature born in a frozen world shrouded in eternal winter. A cold existence, doomed to be alone. Wherever you go, the cold and dread follow.]</em></p>
+        
         </div>
+
         <div class="section">
             <p><strong>Innate Ability:</strong> <em>[Hailborn]</em></p>
-            <p><strong>Ability Description:</strong> <span class="blur"><em>[You have high resistance to cold.]</em></span></p>
+            <button class="toggle-button" onclick="toggleContent('content3')"><strong>Ability Description:</strong></button>
+                <div id="content3" class="toggle-content">
+                    <p><span class="blur"><em>[As you are born in an icy pit of a frozen world, You are almost immune to cold.]</em></span></p>
+                </div>
+            <p><strong>Aspect Abilities:</strong> <em>[Winter&#39;s Embrace], [Frost Craft]</em></p>
+            <button class="toggle-button" onclick="toggleContent('content2')"><strong>Ability Description:</strong></button>
+                <div id="content2" class="toggle-content">
+                    <p><strong>[Winter&#39;s Embrace]:</strong> <span class="blur"><em>[Your weapons and armor are imbued with the chilling ice of the eternal winter.]</em></span></p>
+                    <p><strong>[Frost Craft]:</strong> <span class="blur"><em>[You can manipulate ice, shaping it to your will.]</em></span></p>
+                </div>
+           <!--<p><strong>Aspect Legacy:</strong> <em>[Legacy]</em></p> -->
         </div>
         <div class="section">
-            <button class="toggle-button"><strong>Reveal Flaw:</strong></button>
-            <div class="toggle-content">
-                <p><strong>Flaw:</strong> <span class="blur"><em>[Frozen heart]</em></span></p>
-                <p><strong>Flaw Description:</strong> <span class="blur"><em>[You can't feel any emotions.]</em></span></p>
-            </div>
+            <button class="toggle-button" onclick="toggleContent('content4')"><strong>Flaw:</strong> <span class="blur"><em>[Frozen heart]</em></span></button>
+                <div id="content4" class="toggle-content">
+                    <p><strong>Flaw Description:</strong> <em>[You can't feel any emotions.]</em></p>
+                </div>
         </div>
     </div>
+
+    <footer>
+        <p>Oc Spell Runes, Fanwork of the WebNovel "Shadow Slave" by Guiltythree &copy;</p>
+        <p style="font-size: 7px;">page by RK_ShadowDragon</p>
+    </footer>
     <script src="script.js"></script>
 </body>
 </html>
